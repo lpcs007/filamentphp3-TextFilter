@@ -1,3 +1,4 @@
+```php
 <?php
 
 namespace App\Components\Filters;
@@ -95,3 +96,4 @@ class TextFilter extends BaseFilter
         return filled($value) ? 1 : 0;
     }
 }
+```
